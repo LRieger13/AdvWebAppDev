@@ -12,6 +12,7 @@ public partial class UserAccount_DetailsConfirm : System.Web.UI.Page
         // user notification to enter info
         Master.UserFeedBack.Text = "Please enter account information.";
     }
+    
     //First Name
     public TextBox FirstName
     {
