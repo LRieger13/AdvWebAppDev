@@ -1,0 +1,72 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="WEB460Project.master.cs" Inherits="WEB460Project" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Programaholics Anonymous [ PA ]</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        #form1 {
+            margin-left: 0px;
+        }
+
+        html {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .auto-style1 {
+            width: 456px;
+        }
+        .auto-style2 {
+            width: 268435680px;
+        }
+    </style>
+</head>
+<body>
+
+    <form id="form1" runat="server">
+        <table style="padding: 10px; border: 3px groove black;">
+            <!-- PAGE HEADER -->
+            <tr style="background-color: #778899; text-align: center;">
+                <td colspan="8">
+                    <img src="Images/logo.png" style="border-style: none; width: 250px; height: 130px;" />
+                    <!-- TITLE -->
+                    <!-- LABEL for content pages to display USER MESSAGE -->
+                    <strong><span style="color: goldenrod;">
+                        <br />
+                        <asp:Label ID="lblUserFeedBack" runat="server" Font-Names="Courier New" Font-Bold="True" Font-Size="Large" >Code Monkey likes Fritos.. </asp:Label>
+                    </span></strong>
+                </td>
+            </tr>
+
+            <tr style="vertical-align: top;">
+                <td colspan="4">
+                    <!-- LEFT CONTENT AREA -->
+                    <asp:ContentPlaceHolder ID="Dashboard" runat="server"></asp:ContentPlaceHolder>
+                </td>
+                <td colspan="6" class="auto-style2">
+                    <!-- RIGHT CONTENT AREA -->
+                    <asp:ContentPlaceHolder ID="Tabs" runat="server"></asp:ContentPlaceHolder>
+                </td>
+            </tr>
+
+
+
+            <!-- PAGE FOOTER -->
+            <tr style="background-color: #374D5E; text-align: center;">
+                <td colspan="6" class="auto-style1" style="border-style: none;">
+                    <h4 style="color: #778899; font-family: 'Modern No. 20';">Programaholics Anonymous [PA]</h4>
+                    <!-- LABEL for copyright -->
+                    <strong><span style="color: #778899; font-size: x-small;">
+                        <asp:Label ID="Copyright" runat="server">Copyright 2020</asp:Label>
+                    </span></strong>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
