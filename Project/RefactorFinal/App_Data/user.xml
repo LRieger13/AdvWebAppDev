@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes"?>
+<dsProgramaholics xmlns="http://tempuri.org/dsProgramaholics.xsd">
+  <tblUserDetails>
+    <FName>Jogn</FName>
+    <LName>Bob</LName>
+    <Pwd>jbob1</Pwd>
+    <Street>123 s. st.</Street>
+    <City>NY</City>
+    <State>NY</State>
+    <ID>1</ID>
+    <Username>jbob</Username>
+  </tblUserDetails>
+</dsProgramaholics>
